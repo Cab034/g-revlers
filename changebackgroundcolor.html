@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+    <title>changebackgroundcolor</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <button>change color</button>
+    <script type="text/javascript">
+        var color = ["#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0", "#FFFFFF", "#FF0000", "#000000", "#0000FF", "#00FFFF", "#FF00FF", "#00FF00", "#C0C0C0",];
+        var i = 0;
+        document.querySelector("button").addEventListener("click", function () {
+            i = 1 < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color[i]
+
+
+        })
+    </script>
+
+</body>
+
+</html>
